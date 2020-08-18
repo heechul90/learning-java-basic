@@ -2,7 +2,7 @@ package controlStatement;
 
 import java.util.ArrayList;
 
-public class ifStatement {
+public class IfDemo {
 	public static void main(String[] args) {
 		
 		// if문 기본 구조
