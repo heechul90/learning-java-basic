@@ -1,11 +1,11 @@
 package objectOriented;
 
-public class Lion extends Animal implements Predator, Barkable {
-	public String getFood() {
-		return "banana";
-	}
-	
-	public void bark() {
-		System.out.println("À¸¸£··!");
-	}
+public class Lion extends Predator implements Barkable {
+    public String getFood() {
+        return "banana";
+    }
+
+    public void bark() {
+        System.out.println("À¸¸£··!");
+    }
 }

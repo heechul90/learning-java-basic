@@ -1,6 +1,6 @@
 package objectOriented;
 
-public class Crocodile extends Animal implements Predator, Barkable {
+public class Crocodile extends Predator implements Barkable {
 	public String getFood() {
 		return "chicken";
 	}
