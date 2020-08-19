@@ -1,11 +1,11 @@
 package house;
 
 public class HousePark {
-	String lastname = "park";
+	static String lastname = "¹Ú";
 	
 	public static void main(String[] args) {
-		HouseKim kim = new HouseKim();
-		System.out.println(kim.lastname);
+		HousePark pey = new HousePark();
+		HousePark pes = new HousePark();
 	}
 
 }
